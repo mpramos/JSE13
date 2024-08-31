@@ -12,9 +12,10 @@ body{
     line-height: 1.6;
 }
 nav ul{
+    /* border:1px solid blue; */
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1rem;
 }
 nav ul li{
@@ -34,24 +35,39 @@ nav ul li a{
     font-size: 3rem;
 }
 .buttons{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px 20px;
-    margin: 10px;
+    margin: 15px;
     /* background-color: #8e44ad; */
     
 }
 button{
     margin-top: 20px;
+    padding: 10px;
     /* border: 1px solid red; */
     background-color: #8e44ad;
     color:white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
 }
 button:hover{
-    background-color:red;
+    background-color:rgb(29, 27, 27);
+}
+.work-items{
+    display: flex;
+    align-items: center;
+}
+.work-item{
+    
 }
 
 
+.contact{
+    border:1px solid red;
+}
+
+.socials{
+    text-align: center;
+}
 

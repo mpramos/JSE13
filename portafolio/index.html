@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
 
 </head>
 
@@ -19,6 +20,9 @@
             <ul>
                 <li><a href="#">Home</a> </li>
                 <li><a href="#">About</a> </li>
+                <li>
+                    <img src="./assets/icons/Logo name.svg" alt="" srcset="">
+                </li>
                 <li><a href="#">Work</a> </li>
                 <li><a href="#">Contact</a> </li>
             </ul>
@@ -27,9 +31,10 @@
             <h1>Creative UI designer<br>Sourasith Phomhome<br>
                 Based in Monteal</h1>
             <div class="buttons">
-                <button>Hire Me</button>
-                <button>Download CV </button>
+                <button onclick="handleClick()">Hire Me</button>
+                <button onclick="handleClick()">Download CV </button>
             </div>
+            <img src="./assets/images/girl1.svg" alt="">
         </section>
     </header>
     <section class="about-me">
@@ -42,18 +47,21 @@
         <h2>My recent Work</h2>
         <div class="work-items">
             <div class="work-item">
-                <p>Mockups</p>
-            </div>
-            <div class="work-item">
-                <p>Ui Designer</p>
+                <img src="./assets/images/mockup1.svg" alt="">
                 
             </div>
             <div class="work-item">
-                <p>Mockups</p>
+                <img src="./assets/images/mockup2.svg" alt="">
+                
+            </div>
+            <div class="work-item">
+            <img src="./assets/images/mockup3.svg" alt="">
+                
             </div>
         </div>
     </main>
     <section class="contact">
+        <!-- <img src="./assets/images/girlworking.svg" alt="" srcset=""> -->
         <h2>Get in touch</h2>
         <form action="https://formspree.io/f/xyzgoqbk"
         method="POST">
@@ -68,8 +76,13 @@
     <footer>
         <ul class="socials">
             <li>
-                <a href="">LinkedIn</a>
-                <a href="">GitHub</a>
+                <a href="">
+                    <img src="./assets/icons/Instagram.svg" alt="" srcset="">
+                    <img src="./assets/icons/Twitter.svg" alt="" srcset="">
+                    <img src="./assets/icons/Linkedin.svg" alt="" srcset="">
+                    <img src="./assets/icons/Facebook.svg" alt="" srcset="">
+                    <img src="./assets/icons/YouTube.svg" alt="" srcset="">
+                </a>
             </li>
         </ul>
     </footer>
