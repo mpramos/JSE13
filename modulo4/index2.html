@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombres =[]
+        let seTerminó=false
+        while (!seTerminó) {
+            let nombre=prompt('Ingresa un nombre o presional cancelar para parar')
+            if (nombre!=null) {
+                nombres.push(nombre)
+            } else {
+                seTerminó=true
+            }
+        }
+        for(let i=0;i<=nombres.length-1;i++){
+            alert(nombres[i]);
+        }
+
+    </script>
+</body>
+</html>

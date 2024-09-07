@@ -15,8 +15,9 @@ nav ul{
     /* border:1px solid blue; */
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
+    /* padding: 4rem; */
+    padding: 1.5rem 10rem;
 }
 nav ul li{
     margin: 0 15px;
@@ -30,16 +31,35 @@ nav ul li a{
 }
 .header-content{
     text-align: center;
+    /* border:1px solid yellow; */
 }
 .header-content h1{
     font-size: 3rem;
+
+}
+.header-content-top{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid white; */
+    flex-wrap: wrap;
+    /* gap: 20rem; */
+
+}
+.about-me{
+    /* border:1px solid red; */
+    max-width: 230px;
+    margin: 10rem 5rem;
+    text-align: left;
+    font-size: 0.8rem;
+    border: 1px solid red;
 }
 .buttons{
     /* border: 1px solid red; */
     padding: 10px 20px;
     margin: 15px;
     /* background-color: #8e44ad; */
-    
+
 }
 button{
     margin-top: 20px;
@@ -59,7 +79,7 @@ button:hover{
     align-items: center;
 }
 .work-item{
-    
+
 }
 
 
