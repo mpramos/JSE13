@@ -17,7 +17,11 @@
     <script>
         
      const ul=document.querySelector('ul')   
-     ul.innerHTML=''
+     const listas=document.querySelectorAll('li')
+     for (const lista of listas) {
+        ul.removeChild(lista)
+     }
+    //  ul.innerHTML=''
     </script>
 </body>
 </html>

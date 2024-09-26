@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let title=document.createElement('h1')
+        title.className='title'
+        title.style.fontSize='24px'
+        title.textContent='Creando nuestro primer elemento h1 desde JavaScript'
+        console.log(title);
+        
+        let titulo
+        for (let index = 0; index < 3; index++) {
+            titulo=document.createElement('h1')
+            titulo.className='titulo'
+            titulo.style.fontSize='24px'
+            titulo.textContent=`titulo ${index}`
+            console.log(titulo);
+            
+            document.body.appendChild(titulo)
+        }
+    </script>
+</body>
+</html>
