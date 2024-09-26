@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title" id="first-title">Primer Titulo</h1>
+    <h1 class="title" id="second-title">Segundo Titulo</h1>
+    <h1 class="title" id="third-title">Tercer Titulo</h1>
+    <h1></h1>
+    <script>
+        // PRIMERA FORMA
+        // const titulos=document.querySelectorAll('h1')
+        // console.log(titulos);
+        // titulos[3].className='title'
+        // titulos[3].id='fourth-title'
+        // SEGUNDA FORMA
+        const titles=document.querySelectorAll('h1')
+        titles[3].classList.add('title','header-title')
+        titles[3].classList.remove('title', 'header-title')
+        titles[3].textContent='Fourth Title'
+    </script>
+</body>
+</html>

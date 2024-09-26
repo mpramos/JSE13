@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title" id="firt-title">Primer Titulo</h1>
+    <h1 class="title" id="second-title">Segundo Titulo</h1>
+    <h1 class="title" id="third-title">Tercer Titulo</h1>
+    <h1 class="" id="four-title">Cuarto Titulo</h1>
+    <script>
+            // const todosLosTitulos= document.getElementsByTagName('h1')    
+            const todosLosTitulos=document.getElementsByClassName('title')
+            let firsTitle=document.getElementById('firt-title')
+
+            console.log(todosLosTitulos);
+            console.log(todosLosTitulos.length);
+
+            for (let index = 0; index < todosLosTitulos.length; index++) {
+                    console.log(todosLosTitulos[index]);
+            }
+
+            console.log('ELEMENTO firsTitle ',firsTitle )
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title" id="firt-title">Primer Titulo</h1>
+    <h1 class="title" id="second-title">Segundo Titulo</h1>
+    <h1 class="title" id="third-title">Tercer Titulo</h1>
+    <script>
+        const titles=document.querySelectorAll('h1')
+        titles.forEach((title,i)=>{
+            if (i % 2 ===0) {
+                title.style.color='green'
+                title.style.fontSize='24px'
+            } else {
+                title.style.color='red'
+                title.style.fontSize='34px'
+            }
+        })          
+    </script>
+</body>
+</html>
